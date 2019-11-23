@@ -1,20 +1,14 @@
-.container {
+.list-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .container-title {
-    font-size: 30px;
+  .list-title {
+    font-size: 20px;
     font-weight:bold;
-    padding: 20px;
   }
-  .container-panels {
+  form {
     display: flex;
     flex-direction: row;
-  }
-  ::ng-deep {
-    .panel-title {
-      color: gray;
-    }
   }
 }
